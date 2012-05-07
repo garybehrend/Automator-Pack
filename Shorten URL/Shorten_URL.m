@@ -1,16 +1,16 @@
 //
-//  ShortenURL.m
-//  ShortenURL
+//  Shorten_URL.m
+//  Shorten_URL
 //
 //  Created by Karl Moskowski on 10-06-01.
 //  Copyright 2010 Karl Moskowski, All Rights Reserved.
 //
 
-#import "ShortenURL.h"
+#import "Shorten_URL.h"
 #import "JSON/JSON.h"
 #import "NSString+URIQuery.h"
 
-@implementation ShortenURL
+@implementation Shorten_URL
 
 - (id) runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
 	id output = input;

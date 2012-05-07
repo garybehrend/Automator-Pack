@@ -21,7 +21,7 @@
 /* Begin PBXBuildFile section */
 		60E1E08C0DB55F8700B0848E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E1E08A0DB55F8700B0848E /* main.xib */; };
 		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
-		65181752067A8D39005BD953 /* ShortenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* ShortenURL.m */; };
+		65181752067A8D39005BD953 /* Shorten_URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* Shorten_URL.m */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		CB8EC9D811BC34C300180B72 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8EC9CB11BC34C300180B72 /* JSON.h */; };
@@ -46,12 +46,12 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* ShortenURL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; path = ShortenURL_Prefix.pch; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* Shorten URL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Shorten URL_Prefix.pch"; sourceTree = "<group>"; };
 		60E1E08B0DB55F8700B0848E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
 		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
-		6518174F067A8D39005BD953 /* ShortenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShortenURL.h; sourceTree = "<group>"; };
-		65181750067A8D39005BD953 /* ShortenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortenURL.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* ShortenURL.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortenURL.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		6518174F067A8D39005BD953 /* Shorten_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shorten_URL.h; sourceTree = "<group>"; };
+		65181750067A8D39005BD953 /* Shorten_URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shorten_URL.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* Shorten URL.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shorten URL.action"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
 		CB8EC9CB11BC34C300180B72 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		CB8EC9CC11BC34C300180B72 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6518174F067A8D39005BD953 /* ShortenURL.h */,
-				65181750067A8D39005BD953 /* ShortenURL.m */,
+				6518174F067A8D39005BD953 /* Shorten_URL.h */,
+				65181750067A8D39005BD953 /* Shorten_URL.m */,
 				CBE035581211E4DD006FFFEF /* NSString+URIQuery.h */,
 				CBE035591211E4DD006FFFEF /* NSString+URIQuery.m */,
 				CB8EC9CA11BC34C300180B72 /* JSON */,
@@ -147,7 +147,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* ShortenURL.action */,
+				8D5B49B6048680CD000E48DA /* Shorten URL.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 		32C88E010371C26100C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* ShortenURL_Prefix.pch */,
+				32DBCF630370AF2F00C91783 /* Shorten URL_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* ShortenURL */ = {
+		8D5B49AC048680CD000E48DA /* Shorten URL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "ShortenURL" */;
+			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Shorten URL" */;
 			buildPhases = (
 				B53D27B20DA1ACE500FE9F72 /* AppleScript */,
 				B53D27B30DA1ACE500FE9F72 /* Headers */,
@@ -217,10 +217,10 @@
 			);
 			dependencies = (
 			);
-			name = ShortenURL;
+			name = "Shorten URL";
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = "Shorten URL";
-			productReference = 8D5B49B6048680CD000E48DA /* ShortenURL.action */;
+			productReference = 8D5B49B6048680CD000E48DA /* Shorten URL.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +231,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "ShortenURL" */;
+			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Shorten URL" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -245,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* ShortenURL */,
+				8D5B49AC048680CD000E48DA /* Shorten URL */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65181752067A8D39005BD953 /* ShortenURL.m in Sources */,
+				65181752067A8D39005BD953 /* Shorten_URL.m in Sources */,
 				CB8EC9DA11BC34C300180B72 /* NSObject+SBJSON.m in Sources */,
 				CB8EC9DC11BC34C300180B72 /* NSString+SBJSON.m in Sources */,
 				CB8EC9DE11BC34C300180B72 /* SBJSON.m in Sources */,
@@ -334,11 +334,11 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ShortenURL_Prefix.pch;
+				GCC_PREFIX_HEADER = "Shorten URL_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = ShortenURL;
+				PRODUCT_NAME = "Shorten URL";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
@@ -349,11 +349,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ShortenURL_Prefix.pch;
+				GCC_PREFIX_HEADER = "Shorten URL_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = ShortenURL;
+				PRODUCT_NAME = "Shorten URL";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Release;
@@ -388,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "ShortenURL" */ = {
+		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Shorten URL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E59C34008A97622001206A8 /* Debug */,
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "ShortenURL" */ = {
+		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Shorten URL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E59C34408A97622001206A8 /* Debug */,

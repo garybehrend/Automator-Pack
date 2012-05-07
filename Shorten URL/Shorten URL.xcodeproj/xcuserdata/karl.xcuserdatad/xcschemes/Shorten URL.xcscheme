@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-               BuildableName = "ShortenURL.action"
-               BlueprintName = "ShortenURL"
-               ReferencedContainer = "container:ShortenURL.xcodeproj">
+               BuildableName = "Shorten URL.action"
+               BlueprintName = "Shorten URL"
+               ReferencedContainer = "container:Shorten URL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-            BuildableName = "ShortenURL.action"
-            BlueprintName = "ShortenURL"
-            ReferencedContainer = "container:ShortenURL.xcodeproj">
+            BuildableName = "Shorten URL.action"
+            BlueprintName = "Shorten URL"
+            ReferencedContainer = "container:Shorten URL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
