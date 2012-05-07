@@ -1,16 +1,16 @@
 //
-//  Shorten URL.m
-//  Shorten URL
+//  ShortenURL.m
+//  ShortenURL
 //
 //  Created by Karl Moskowski on 10-06-01.
 //  Copyright 2010 Karl Moskowski, All Rights Reserved.
 //
 
-#import "Shorten URL.h"
+#import "ShortenURL.h"
 #import "JSON/JSON.h"
 #import "NSString+URIQuery.h"
 
-@implementation Shorten_URL
+@implementation ShortenURL
 
 - (id) runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
 	id output = input;
@@ -57,6 +57,8 @@
 	}
 	return output;
 }
+
+// bit.ly and goo.gl now require API keys, so their options are now hidden in the UI
 
 - (NSString *) shortenWithBitly:(NSURL *)inputURL {
 	NSString *const baseURL = @"http://bit.ly/api?url=%@";

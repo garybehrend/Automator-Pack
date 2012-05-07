@@ -1,6 +1,6 @@
 //
 //  NSString+URIQuery.m
-//  Shorten URL
+//  ShortenURL
 //
 //  Created by Karl Moskowski on 10-08-10.
 //  Copyright 2010 Karl Moskowski. All rights reserved.

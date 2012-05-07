@@ -24,7 +24,7 @@
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>shorteningServiceTag</key>
-		<string>0</string>
+		<string>2</string>
 		<key>useCanonicalShortener</key>
 		<string>1</string>
 	</dict>
@@ -44,7 +44,7 @@
 		<string>is.gd</string>
 	</array>
 	<key>AMName</key>
-	<string>Shorten URL</string>
+	<string>ShortenURL</string>
 	<key>AMProvides</key>
 	<dict>
 		<key>Container</key>
@@ -96,6 +96,6 @@
 
 json-framework used with appreciation: http://code.google.com/p/json-framework</string>
 	<key>NSPrincipalClass</key>
-	<string>Shorten_URL</string>
+	<string>ShortenURL</string>
 </dict>
 </plist>
