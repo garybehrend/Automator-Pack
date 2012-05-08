@@ -24,7 +24,7 @@
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>shorteningServiceTag</key>
-		<string>2</string>
+		<string>0</string>
 		<key>useCanonicalShortener</key>
 		<string>1</string>
 	</dict>
@@ -63,7 +63,7 @@
 		<key>ApplyButton</key>
 		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
 		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<string>(* Button label for user not to add proposed Action, e.g. Don&apos;t Add. *)</string>
 		<key>Level</key>
 		<integer>0</integer>
 		<key>Message</key>
