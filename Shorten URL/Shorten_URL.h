@@ -13,10 +13,8 @@
 
 - (id) runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;
 
-- (NSString *) shortenWithIsgd:(NSURL *)inputURL;
-- (NSString *) shortenWithTinyURL:(NSURL *)inputURL;
 - (NSString *) shortenWithGoogl:(NSURL *)inputURL;
-
-- (NSString *) encode:(NSURL *)url;
+- (NSString *) shortenWithTinyURL:(NSURL *)inputURL;
+- (NSString *) shortenWithIsgd:(NSURL *)inputURL;
 
 @end
