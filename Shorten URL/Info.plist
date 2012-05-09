@@ -92,9 +92,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright 2010 Karl Moskowski, All Rights Reserved.
-
-json-framework used with appreciation: http://code.google.com/p/json-framework</string>
+	<string>Copyright 2012 Karl Moskowski, All Rights Reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>Shorten_URL</string>
 </dict>
