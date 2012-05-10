@@ -15,7 +15,7 @@
 - (NSDictionary *) queryDictionaryUsingEncoding:(NSStringEncoding)encoding {
 	NSCharacterSet *delimiterSet = [NSCharacterSet characterSetWithCharactersInString:@"&;"];
 	NSMutableDictionary *pairs = [NSMutableDictionary dictionary];
-	NSScanner *scanner = [[[NSScanner alloc] initWithString:self] autorelease];
+	NSScanner *scanner = [[NSScanner alloc] initWithString:self];
 	while (![scanner isAtEnd]) {
 		NSString *pairString;
 		[scanner scanUpToCharactersFromSet:delimiterSet intoString:&pairString];

@@ -27,7 +27,7 @@
 			NSEnumerator *e = [(NSArray *)input objectEnumerator];
 			NSString *p;
 			while (p = [e nextObject]) {
-				NSFileWrapper *fw = [[[NSFileWrapper alloc] initWithPath:p] autorelease];
+				NSFileWrapper *fw = [[NSFileWrapper alloc] initWithPath:p];
 				if ([fw isDirectory] && ![[NSWorkspace sharedWorkspace] isFilePackageAtPath:p]) {
 					path = p;
 					break;
@@ -41,7 +41,7 @@
 	
 	if (path != nil) {
 		// if its a plain file or a bundle (and the option is set), use its enclosing directory
-		if ( ![[[[NSFileWrapper alloc] initWithPath:path] autorelease] isDirectory] || 
+		if ( ![[[NSFileWrapper alloc] initWithPath:path] isDirectory] || 
 			 ([[NSWorkspace sharedWorkspace] isFilePackageAtPath:path] && ([[[self parameters] objectForKey:@"useBundleIndex"] intValue] == 1)) )
 			path = [path stringByDeletingLastPathComponent];
 		output = [NSArray arrayWithObject:path];

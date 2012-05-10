@@ -19,7 +19,7 @@
 		path = input;
 	
 	if (path != nil) {
-		if ([[[[NSFileWrapper alloc] initWithPath:path] autorelease] isDirectory]) {
+		if ([[[NSFileWrapper alloc] initWithPath:path] isDirectory]) {
 			NSString *script = [NSString stringWithFormat:
 				@"tell application \"Terminal\" \n\
 					activate \n\
