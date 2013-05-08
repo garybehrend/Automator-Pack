@@ -9,7 +9,7 @@ This is a collection of useful Automator services for Mac OS X Lion or Mountain 
 
 If you need to change any of the default behaviours, edit the workflows in /Library/Services/.
 
-A installer is available on the Downloads tab.
+A installer is available [here](https://dl.dropboxusercontent.com/u/3464733/Kolonel%20Panic%27s%20Automator%20Pack.zip).
 
 It was developed by Karl Moskowski (aka [@kolpanic](http://twitter.com/kolpanic)) and released under the BSD license.
 
