@@ -6,193 +6,162 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAppleScriptBuildPhase section */
-		B53D27B20DA1ACE500FE9F72 /* AppleScript */ = {
-			isa = PBXAppleScriptBuildPhase;
-			buildActionMask = 2147483647;
-			contextName = "";
-			files = (
-			);
-			isSharedContext = 0;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXAppleScriptBuildPhase section */
-
 /* Begin PBXBuildFile section */
-		60E1E08C0DB55F8700B0848E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E1E08A0DB55F8700B0848E /* main.xib */; };
-		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
-		65181752067A8D39005BD953 /* Open Terminal Here.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		CBF63083178CAAB500D9B8F2 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF63082178CAAB500D9B8F2 /* Automator.framework */; };
+		CBF63085178CAAB500D9B8F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF63084178CAAB500D9B8F2 /* Cocoa.framework */; };
+		CBF6308F178CAAB500D9B8F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF6308D178CAAB500D9B8F2 /* InfoPlist.strings */; };
+		CBF63092178CAAB500D9B8F2 /* Open_Terminal_Here.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF63091178CAAB500D9B8F2 /* Open_Terminal_Here.m */; };
+		CBF63095178CAAB500D9B8F2 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF63093178CAAB500D9B8F2 /* main.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* Open Terminal Here_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Open Terminal Here_Prefix.pch"; sourceTree = "<group>"; };
-		60E1E08B0DB55F8700B0848E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
-		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
-		6518174F067A8D39005BD953 /* Open Terminal Here.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Open Terminal Here.h"; sourceTree = "<group>"; };
-		65181750067A8D39005BD953 /* Open Terminal Here.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Open Terminal Here.m"; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* Open Terminal Here.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Terminal Here.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		CBF6307F178CAAB500D9B8F2 /* Open Terminal Here.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Terminal Here.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF63082178CAAB500D9B8F2 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		CBF63084178CAAB500D9B8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBF63087178CAAB500D9B8F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBF63088178CAAB500D9B8F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBF63089178CAAB500D9B8F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CBF6308C178CAAB500D9B8F2 /* Open Terminal Here-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open Terminal Here-Info.plist"; sourceTree = "<group>"; };
+		CBF6308E178CAAB500D9B8F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBF63090178CAAB500D9B8F2 /* Open_Terminal_Here.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Open_Terminal_Here.h; sourceTree = "<group>"; };
+		CBF63091178CAAB500D9B8F2 /* Open_Terminal_Here.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_Terminal_Here.m; sourceTree = "<group>"; };
+		CBF63094178CAAB500D9B8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		CBF63096178CAAB500D9B8F2 /* Open Terminal Here-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Open Terminal Here-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+		CBF6307B178CAAB500D9B8F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
+				CBF63085178CAAB500D9B8F2 /* Cocoa.framework in Frameworks */,
+				CBF63083178CAAB500D9B8F2 /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* Open Terminal Here */ = {
+		CBF63075178CAAB500D9B8F2 = {
 			isa = PBXGroup;
 			children = (
-				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32C88E010371C26100C91783 /* Other Sources */,
-				089C167CFE841241C02AAC07 /* Resources */,
-				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
-				19C28FB8FE9D52D311CA2CBB /* Products */,
+				CBF6308A178CAAB500D9B8F2 /* Open Terminal Here */,
+				CBF63081178CAAB500D9B8F2 /* Frameworks */,
+				CBF63080178CAAB500D9B8F2 /* Products */,
 			);
-			name = "Open Terminal Here";
 			sourceTree = "<group>";
 		};
-		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+		CBF63080178CAAB500D9B8F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
-				650E79E1067AB5AE00B4A4EC /* Automator.framework */,
-			);
-			name = "Frameworks and Libraries";
-			sourceTree = "<group>";
-		};
-		089C167CFE841241C02AAC07 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				60E1E08A0DB55F8700B0848E /* main.xib */,
-				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		08FB77AFFE84173DC02AAC07 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6518174F067A8D39005BD953 /* Open Terminal Here.h */,
-				65181750067A8D39005BD953 /* Open Terminal Here.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		19C28FB8FE9D52D311CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D5B49B6048680CD000E48DA /* Open Terminal Here.action */,
+				CBF6307F178CAAB500D9B8F2 /* Open Terminal Here.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32C88E010371C26100C91783 /* Other Sources */ = {
+		CBF63081178CAAB500D9B8F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* Open Terminal Here_Prefix.pch */,
+				CBF63082178CAAB500D9B8F2 /* Automator.framework */,
+				CBF63084178CAAB500D9B8F2 /* Cocoa.framework */,
+				CBF63086178CAAB500D9B8F2 /* Other Frameworks */,
 			);
-			name = "Other Sources";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF63086178CAAB500D9B8F2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF63087178CAAB500D9B8F2 /* Foundation.framework */,
+				CBF63088178CAAB500D9B8F2 /* CoreData.framework */,
+				CBF63089178CAAB500D9B8F2 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CBF6308A178CAAB500D9B8F2 /* Open Terminal Here */ = {
+			isa = PBXGroup;
+			children = (
+				CBF63090178CAAB500D9B8F2 /* Open_Terminal_Here.h */,
+				CBF63091178CAAB500D9B8F2 /* Open_Terminal_Here.m */,
+				CBF63093178CAAB500D9B8F2 /* main.xib */,
+				CBF6308B178CAAB500D9B8F2 /* Supporting Files */,
+			);
+			path = "Open Terminal Here";
+			sourceTree = "<group>";
+		};
+		CBF6308B178CAAB500D9B8F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF6308C178CAAB500D9B8F2 /* Open Terminal Here-Info.plist */,
+				CBF6308D178CAAB500D9B8F2 /* InfoPlist.strings */,
+				CBF63096178CAAB500D9B8F2 /* Open Terminal Here-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		B53D27B30DA1ACE500FE9F72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* Open Terminal Here */ = {
+		CBF6307E178CAAB500D9B8F2 /* Open Terminal Here */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Open Terminal Here" */;
+			buildConfigurationList = CBF63099178CAAB500D9B8F2 /* Build configuration list for PBXNativeTarget "Open Terminal Here" */;
 			buildPhases = (
-				B53D27B20DA1ACE500FE9F72 /* AppleScript */,
-				B53D27B30DA1ACE500FE9F72 /* Headers */,
-				8D5B49AF048680CD000E48DA /* Resources */,
-				8D5B49B1048680CD000E48DA /* Sources */,
-				8D5B49B3048680CD000E48DA /* Frameworks */,
-				B53D27B40DA1ACE500FE9F72 /* Rez */,
-				25038767080C6D0B00E1128B /* ShellScript */,
+				CBF6307A178CAAB500D9B8F2 /* Sources */,
+				CBF6307B178CAAB500D9B8F2 /* Frameworks */,
+				CBF6307C178CAAB500D9B8F2 /* Resources */,
+				CBF6307D178CAAB500D9B8F2 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Open Terminal Here";
-			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = "Open Terminal Here";
-			productReference = 8D5B49B6048680CD000E48DA /* Open Terminal Here.action */;
+			productReference = CBF6307F178CAAB500D9B8F2 /* Open Terminal Here.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		089C1669FE841209C02AAC07 /* Project object */ = {
+		CBF63076178CAAB500D9B8F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Karl Moskowski";
 			};
-			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Open Terminal Here" */;
+			buildConfigurationList = CBF63079178CAAB500D9B8F2 /* Build configuration list for PBXProject "Open Terminal Here" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
-			hasScannedForEncodings = 1;
+			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
+				Base,
 			);
-			mainGroup = 089C166AFE841209C02AAC07 /* Open Terminal Here */;
+			mainGroup = CBF63075178CAAB500D9B8F2;
+			productRefGroup = CBF63080178CAAB500D9B8F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* Open Terminal Here */,
+				CBF6307E178CAAB500D9B8F2 /* Open Terminal Here */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D5B49AF048680CD000E48DA /* Resources */ = {
+		CBF6307C178CAAB500D9B8F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				60E1E08C0DB55F8700B0848E /* main.xib in Resources */,
+				CBF63095178CAAB500D9B8F2 /* main.xib in Resources */,
+				CBF6308F178CAAB500D9B8F2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXRezBuildPhase section */
-		B53D27B40DA1ACE500FE9F72 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		25038767080C6D0B00E1128B /* ShellScript */ = {
+		CBF6307D178CAAB500D9B8F2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,34 +172,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D5B49B1048680CD000E48DA /* Sources */ = {
+		CBF6307A178CAAB500D9B8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65181752067A8D39005BD953 /* Open Terminal Here.m in Sources */,
+				CBF63092178CAAB500D9B8F2 /* Open_Terminal_Here.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		CBF6308D178CAAB500D9B8F2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				CBF6308E178CAAB500D9B8F2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		60E1E08A0DB55F8700B0848E /* main.xib */ = {
+		CBF63093178CAAB500D9B8F2 /* main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60E1E08B0DB55F8700B0848E /* English */,
+				CBF63094178CAAB500D9B8F2 /* Base */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";
@@ -238,95 +207,125 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E59C34008A97622001206A8 /* Debug */ = {
+		CBF63097178CAAB500D9B8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_GC = unsupported;
-				GCC_MODEL_TUNING = G5;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Open Terminal Here_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
-				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = "Open Terminal Here";
-				WRAPPER_EXTENSION = action;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		4E59C34108A97622001206A8 /* Release */ = {
+		CBF63098178CAAB500D9B8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_GC = unsupported;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Open Terminal Here_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
-				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = "Open Terminal Here";
-				WRAPPER_EXTENSION = action;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4E59C34408A97622001206A8 /* Debug */ = {
+		CBF6309A178CAAB500D9B8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-				VALID_ARCHS = "i386 ppc x86_64";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Terminal Here/Open Terminal Here-Prefix.pch";
+				INFOPLIST_FILE = "Open Terminal Here/Open Terminal Here-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
 		};
-		4E59C34508A97622001206A8 /* Release */ = {
+		CBF6309B178CAAB500D9B8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
-				VALID_ARCHS = "i386 ppc x86_64";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Terminal Here/Open Terminal Here-Prefix.pch";
+				INFOPLIST_FILE = "Open Terminal Here/Open Terminal Here-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Open Terminal Here" */ = {
+		CBF63079178CAAB500D9B8F2 /* Build configuration list for PBXProject "Open Terminal Here" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34008A97622001206A8 /* Debug */,
-				4E59C34108A97622001206A8 /* Release */,
+				CBF63097178CAAB500D9B8F2 /* Debug */,
+				CBF63098178CAAB500D9B8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Open Terminal Here" */ = {
+		CBF63099178CAAB500D9B8F2 /* Build configuration list for PBXNativeTarget "Open Terminal Here" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34408A97622001206A8 /* Debug */,
-				4E59C34508A97622001206A8 /* Release */,
+				CBF6309A178CAAB500D9B8F2 /* Debug */,
+				CBF6309B178CAAB500D9B8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+	rootObject = CBF63076178CAAB500D9B8F2 /* Project object */;
 }

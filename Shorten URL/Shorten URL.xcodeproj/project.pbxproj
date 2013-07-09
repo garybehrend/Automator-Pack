@@ -6,220 +6,167 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAppleScriptBuildPhase section */
-		B53D27B20DA1ACE500FE9F72 /* AppleScript */ = {
-			isa = PBXAppleScriptBuildPhase;
-			buildActionMask = 2147483647;
-			contextName = "";
-			files = (
-			);
-			isSharedContext = 0;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXAppleScriptBuildPhase section */
-
 /* Begin PBXBuildFile section */
-		60E1E08C0DB55F8700B0848E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E1E08A0DB55F8700B0848E /* main.xib */; };
-		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
-		65181752067A8D39005BD953 /* Shorten_URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* Shorten_URL.m */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		CBE0355A1211E4DD006FFFEF /* NSString+URIQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE035581211E4DD006FFFEF /* NSString+URIQuery.h */; };
-		CBE0355B1211E4DD006FFFEF /* NSString+URIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE035591211E4DD006FFFEF /* NSString+URIQuery.m */; };
+		CB1C315D178C9E2C00931CEA /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C315C178C9E2C00931CEA /* Automator.framework */; };
+		CB1C315F178C9E2C00931CEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C315E178C9E2C00931CEA /* Cocoa.framework */; };
+		CB1C3169178C9E2C00931CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1C3167178C9E2C00931CEA /* InfoPlist.strings */; };
+		CB1C316C178C9E2C00931CEA /* Shorten_URL.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C316B178C9E2C00931CEA /* Shorten_URL.m */; };
+		CB1C316F178C9E2C00931CEA /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C316D178C9E2C00931CEA /* main.xib */; };
+		CB1C3178178C9ED400931CEA /* NSString+URIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C3177178C9ED400931CEA /* NSString+URIQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* Shorten URL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Shorten URL_Prefix.pch"; sourceTree = "<group>"; };
-		60E1E08B0DB55F8700B0848E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
-		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
-		6518174F067A8D39005BD953 /* Shorten_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shorten_URL.h; sourceTree = "<group>"; };
-		65181750067A8D39005BD953 /* Shorten_URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shorten_URL.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* Shorten URL.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shorten URL.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
-		CBE035581211E4DD006FFFEF /* NSString+URIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URIQuery.h"; sourceTree = "<group>"; };
-		CBE035591211E4DD006FFFEF /* NSString+URIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URIQuery.m"; sourceTree = "<group>"; };
+		CB1C3159178C9E2C00931CEA /* Shorten URL.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shorten URL.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1C315C178C9E2C00931CEA /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		CB1C315E178C9E2C00931CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CB1C3161178C9E2C00931CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB1C3162178C9E2C00931CEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB1C3163178C9E2C00931CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CB1C3166178C9E2C00931CEA /* Shorten URL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shorten URL-Info.plist"; sourceTree = "<group>"; };
+		CB1C3168178C9E2C00931CEA /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1C316A178C9E2C00931CEA /* Shorten_URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shorten_URL.h; sourceTree = "<group>"; };
+		CB1C316B178C9E2C00931CEA /* Shorten_URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shorten_URL.m; sourceTree = "<group>"; };
+		CB1C316E178C9E2C00931CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		CB1C3170178C9E2C00931CEA /* Shorten URL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shorten URL-Prefix.pch"; sourceTree = "<group>"; };
+		CB1C3176178C9ED400931CEA /* NSString+URIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URIQuery.h"; sourceTree = "<group>"; };
+		CB1C3177178C9ED400931CEA /* NSString+URIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URIQuery.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+		CB1C3155178C9E2C00931CEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
+				CB1C315F178C9E2C00931CEA /* Cocoa.framework in Frameworks */,
+				CB1C315D178C9E2C00931CEA /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* Shorten URL */ = {
+		CB1C314F178C9E2C00931CEA = {
 			isa = PBXGroup;
 			children = (
-				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32C88E010371C26100C91783 /* Other Sources */,
-				089C167CFE841241C02AAC07 /* Resources */,
-				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
-				19C28FB8FE9D52D311CA2CBB /* Products */,
+				CB1C3164178C9E2C00931CEA /* Shorten URL */,
+				CB1C315B178C9E2C00931CEA /* Frameworks */,
+				CB1C315A178C9E2C00931CEA /* Products */,
 			);
-			name = "Shorten URL";
 			sourceTree = "<group>";
 		};
-		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+		CB1C315A178C9E2C00931CEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
-				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
-			);
-			name = "Frameworks and Libraries";
-			sourceTree = "<group>";
-		};
-		089C167CFE841241C02AAC07 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				60E1E08A0DB55F8700B0848E /* main.xib */,
-				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		08FB77AFFE84173DC02AAC07 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6518174F067A8D39005BD953 /* Shorten_URL.h */,
-				65181750067A8D39005BD953 /* Shorten_URL.m */,
-				CBE035581211E4DD006FFFEF /* NSString+URIQuery.h */,
-				CBE035591211E4DD006FFFEF /* NSString+URIQuery.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
-				650E79E1067AB5AE00B4A4EC /* Automator.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
-		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				089C1672FE841209C02AAC07 /* Foundation.framework */,
-				089C167FFE841241C02AAC07 /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		19C28FB8FE9D52D311CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D5B49B6048680CD000E48DA /* Shorten URL.action */,
+				CB1C3159178C9E2C00931CEA /* Shorten URL.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32C88E010371C26100C91783 /* Other Sources */ = {
+		CB1C315B178C9E2C00931CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* Shorten URL_Prefix.pch */,
+				CB1C315C178C9E2C00931CEA /* Automator.framework */,
+				CB1C315E178C9E2C00931CEA /* Cocoa.framework */,
+				CB1C3160178C9E2C00931CEA /* Other Frameworks */,
 			);
-			name = "Other Sources";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1C3160178C9E2C00931CEA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C3161178C9E2C00931CEA /* Foundation.framework */,
+				CB1C3162178C9E2C00931CEA /* CoreData.framework */,
+				CB1C3163178C9E2C00931CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CB1C3164178C9E2C00931CEA /* Shorten URL */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C316A178C9E2C00931CEA /* Shorten_URL.h */,
+				CB1C316B178C9E2C00931CEA /* Shorten_URL.m */,
+				CB1C3176178C9ED400931CEA /* NSString+URIQuery.h */,
+				CB1C3177178C9ED400931CEA /* NSString+URIQuery.m */,
+				CB1C316D178C9E2C00931CEA /* main.xib */,
+				CB1C3165178C9E2C00931CEA /* Supporting Files */,
+			);
+			path = "Shorten URL";
+			sourceTree = "<group>";
+		};
+		CB1C3165178C9E2C00931CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C3166178C9E2C00931CEA /* Shorten URL-Info.plist */,
+				CB1C3167178C9E2C00931CEA /* InfoPlist.strings */,
+				CB1C3170178C9E2C00931CEA /* Shorten URL-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		B53D27B30DA1ACE500FE9F72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBE0355A1211E4DD006FFFEF /* NSString+URIQuery.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* Shorten URL */ = {
+		CB1C3158178C9E2C00931CEA /* Shorten URL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Shorten URL" */;
+			buildConfigurationList = CB1C3173178C9E2C00931CEA /* Build configuration list for PBXNativeTarget "Shorten URL" */;
 			buildPhases = (
-				B53D27B20DA1ACE500FE9F72 /* AppleScript */,
-				B53D27B30DA1ACE500FE9F72 /* Headers */,
-				8D5B49AF048680CD000E48DA /* Resources */,
-				8D5B49B1048680CD000E48DA /* Sources */,
-				8D5B49B3048680CD000E48DA /* Frameworks */,
-				B53D27B40DA1ACE500FE9F72 /* Rez */,
-				25038767080C6D0B00E1128B /* ShellScript */,
+				CB1C3154178C9E2C00931CEA /* Sources */,
+				CB1C3155178C9E2C00931CEA /* Frameworks */,
+				CB1C3156178C9E2C00931CEA /* Resources */,
+				CB1C3157178C9E2C00931CEA /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Shorten URL";
-			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = "Shorten URL";
-			productReference = 8D5B49B6048680CD000E48DA /* Shorten URL.action */;
+			productReference = CB1C3159178C9E2C00931CEA /* Shorten URL.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		089C1669FE841209C02AAC07 /* Project object */ = {
+		CB1C3150178C9E2C00931CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Karl Moskowski";
 			};
-			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Shorten URL" */;
+			buildConfigurationList = CB1C3153178C9E2C00931CEA /* Build configuration list for PBXProject "Shorten URL" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
-			hasScannedForEncodings = 1;
+			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
+				Base,
 			);
-			mainGroup = 089C166AFE841209C02AAC07 /* Shorten URL */;
+			mainGroup = CB1C314F178C9E2C00931CEA;
+			productRefGroup = CB1C315A178C9E2C00931CEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* Shorten URL */,
+				CB1C3158178C9E2C00931CEA /* Shorten URL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D5B49AF048680CD000E48DA /* Resources */ = {
+		CB1C3156178C9E2C00931CEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				60E1E08C0DB55F8700B0848E /* main.xib in Resources */,
+				CB1C316F178C9E2C00931CEA /* main.xib in Resources */,
+				CB1C3169178C9E2C00931CEA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXRezBuildPhase section */
-		B53D27B40DA1ACE500FE9F72 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		25038767080C6D0B00E1128B /* ShellScript */ = {
+		CB1C3157178C9E2C00931CEA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,35 +177,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D5B49B1048680CD000E48DA /* Sources */ = {
+		CB1C3154178C9E2C00931CEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65181752067A8D39005BD953 /* Shorten_URL.m in Sources */,
-				CBE0355B1211E4DD006FFFEF /* NSString+URIQuery.m in Sources */,
+				CB1C316C178C9E2C00931CEA /* Shorten_URL.m in Sources */,
+				CB1C3178178C9ED400931CEA /* NSString+URIQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		CB1C3167178C9E2C00931CEA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				CB1C3168178C9E2C00931CEA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		60E1E08A0DB55F8700B0848E /* main.xib */ = {
+		CB1C316D178C9E2C00931CEA /* main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60E1E08B0DB55F8700B0848E /* English */,
+				CB1C316E178C9E2C00931CEA /* Base */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";
@@ -266,95 +213,125 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E59C34008A97622001206A8 /* Debug */ = {
+		CB1C3171178C9E2C00931CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_GC = unsupported;
-				GCC_MODEL_TUNING = G5;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shorten URL_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
-				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = "Shorten URL";
-				WRAPPER_EXTENSION = action;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		4E59C34108A97622001206A8 /* Release */ = {
+		CB1C3172178C9E2C00931CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_GC = unsupported;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shorten URL_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
-				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_NAME = "Shorten URL";
-				WRAPPER_EXTENSION = action;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4E59C34408A97622001206A8 /* Debug */ = {
+		CB1C3174178C9E2C00931CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-				VALID_ARCHS = "i386 ppc x86_64";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shorten URL/Shorten URL-Prefix.pch";
+				INFOPLIST_FILE = "Shorten URL/Shorten URL-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
 		};
-		4E59C34508A97622001206A8 /* Release */ = {
+		CB1C3175178C9E2C00931CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
-				VALID_ARCHS = "i386 ppc x86_64";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shorten URL/Shorten URL-Prefix.pch";
+				INFOPLIST_FILE = "Shorten URL/Shorten URL-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Shorten URL" */ = {
+		CB1C3153178C9E2C00931CEA /* Build configuration list for PBXProject "Shorten URL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34008A97622001206A8 /* Debug */,
-				4E59C34108A97622001206A8 /* Release */,
+				CB1C3171178C9E2C00931CEA /* Debug */,
+				CB1C3172178C9E2C00931CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Shorten URL" */ = {
+		CB1C3173178C9E2C00931CEA /* Build configuration list for PBXNativeTarget "Shorten URL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34408A97622001206A8 /* Debug */,
-				4E59C34508A97622001206A8 /* Release */,
+				CB1C3174178C9E2C00931CEA /* Debug */,
+				CB1C3175178C9E2C00931CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+	rootObject = CB1C3150178C9E2C00931CEA /* Project object */;
 }

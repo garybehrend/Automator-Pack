@@ -1,0 +1,15 @@
+/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "Copyright ©2013 Karl Moskowski. All rights reserved.";
+
+AMName = "Open Terminal Here";
+
+/*  AMApplication localized strings  */
+"Terminal" = "Terminal";
+
+/*  AMCategory localized strings  */
+"Utility" = "Utility";
+
+/*  AMDescription localized strings  */
+
+"Opens Terminal and cd's to the passed folder." = "Opens Terminal and cd's to the passed folder.";
