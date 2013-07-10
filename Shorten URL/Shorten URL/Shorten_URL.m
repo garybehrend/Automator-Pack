@@ -15,6 +15,8 @@
 	id output = input;
 	NSInteger shorteningServiceTag = [[[self parameters] objectForKey:@"shorteningServiceTag"] integerValue];
 	NSURL *inputURL = nil;
+	if ([input isKindOfClass:[NSArray class]])
+		input = input[0];
 	if ([input isKindOfClass:[NSString class]])
 		inputURL = [NSURL URLWithString:input];
 	if ([input isKindOfClass:[NSURL class]])
