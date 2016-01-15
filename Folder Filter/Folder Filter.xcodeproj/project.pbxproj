@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1C310F178C9A9700931CEA /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C310E178C9A9600931CEA /* Automator.framework */; };
-		CB1C3111178C9A9700931CEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C3110178C9A9700931CEA /* Cocoa.framework */; };
 		CB1C311B178C9A9700931CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1C3119178C9A9700931CEA /* InfoPlist.strings */; };
 		CB1C311E178C9A9700931CEA /* Folder_Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C311D178C9A9700931CEA /* Folder_Filter.m */; };
 		CB1C3121178C9A9700931CEA /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C311F178C9A9700931CEA /* main.xib */; };
@@ -16,8 +14,6 @@
 
 /* Begin PBXFileReference section */
 		CB1C310B178C9A9600931CEA /* Folder Filter.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folder Filter.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1C310E178C9A9600931CEA /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
-		CB1C3110178C9A9700931CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CB1C3118178C9A9700931CEA /* Folder Filter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Folder Filter-Info.plist"; sourceTree = "<group>"; };
 		CB1C311A178C9A9700931CEA /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB1C311C178C9A9700931CEA /* Folder_Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Folder_Filter.h; sourceTree = "<group>"; };
@@ -31,8 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1C3111178C9A9700931CEA /* Cocoa.framework in Frameworks */,
-				CB1C310F178C9A9700931CEA /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				CB1C3116178C9A9700931CEA /* Folder Filter */,
-				CB1C310D178C9A9600931CEA /* Frameworks */,
 				CB1C310C178C9A9600931CEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +47,6 @@
 				CB1C310B178C9A9600931CEA /* Folder Filter.action */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CB1C310D178C9A9600931CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB1C310E178C9A9600931CEA /* Automator.framework */,
-				CB1C3110178C9A9700931CEA /* Cocoa.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CB1C3116178C9A9700931CEA /* Folder Filter */ = {
@@ -113,7 +97,7 @@
 		CB1C3102178C9A9600931CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CB1C3105178C9A9600931CEA /* Build configuration list for PBXProject "Folder Filter" */;
@@ -210,6 +194,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -272,6 +257,7 @@
 				INFOPLIST_FILE = "Folder Filter/Folder Filter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.tacow.action.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};
@@ -286,6 +272,7 @@
 				INFOPLIST_FILE = "Folder Filter/Folder Filter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.tacow.action.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};

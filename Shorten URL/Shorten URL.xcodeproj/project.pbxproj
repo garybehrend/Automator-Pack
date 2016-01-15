@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1C315D178C9E2C00931CEA /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C315C178C9E2C00931CEA /* Automator.framework */; };
-		CB1C315F178C9E2C00931CEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C315E178C9E2C00931CEA /* Cocoa.framework */; };
 		CB1C3169178C9E2C00931CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1C3167178C9E2C00931CEA /* InfoPlist.strings */; };
 		CB1C316C178C9E2C00931CEA /* Shorten_URL.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C316B178C9E2C00931CEA /* Shorten_URL.m */; };
 		CB1C316F178C9E2C00931CEA /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C316D178C9E2C00931CEA /* main.xib */; };
@@ -17,11 +15,6 @@
 
 /* Begin PBXFileReference section */
 		CB1C3159178C9E2C00931CEA /* Shorten URL.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shorten URL.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1C315C178C9E2C00931CEA /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
-		CB1C315E178C9E2C00931CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		CB1C3161178C9E2C00931CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CB1C3162178C9E2C00931CEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CB1C3163178C9E2C00931CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CB1C3166178C9E2C00931CEA /* Shorten URL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shorten URL-Info.plist"; sourceTree = "<group>"; };
 		CB1C3168178C9E2C00931CEA /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB1C316A178C9E2C00931CEA /* Shorten_URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shorten_URL.h; sourceTree = "<group>"; };
@@ -37,8 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1C315F178C9E2C00931CEA /* Cocoa.framework in Frameworks */,
-				CB1C315D178C9E2C00931CEA /* Automator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				CB1C3164178C9E2C00931CEA /* Shorten URL */,
-				CB1C315B178C9E2C00931CEA /* Frameworks */,
 				CB1C315A178C9E2C00931CEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,26 +50,6 @@
 				CB1C3159178C9E2C00931CEA /* Shorten URL.action */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CB1C315B178C9E2C00931CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB1C315C178C9E2C00931CEA /* Automator.framework */,
-				CB1C315E178C9E2C00931CEA /* Cocoa.framework */,
-				CB1C3160178C9E2C00931CEA /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB1C3160178C9E2C00931CEA /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB1C3161178C9E2C00931CEA /* Foundation.framework */,
-				CB1C3162178C9E2C00931CEA /* CoreData.framework */,
-				CB1C3163178C9E2C00931CEA /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		CB1C3164178C9E2C00931CEA /* Shorten URL */ = {
@@ -132,7 +102,7 @@
 		CB1C3150178C9E2C00931CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CB1C3153178C9E2C00931CEA /* Build configuration list for PBXProject "Shorten URL" */;
@@ -230,6 +200,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -292,6 +263,7 @@
 				INFOPLIST_FILE = "Shorten URL/Shorten URL-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.tacow.action.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};
@@ -306,6 +278,7 @@
 				INFOPLIST_FILE = "Shorten URL/Shorten URL-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.tacow.action.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};
@@ -330,6 +303,7 @@
 				CB1C3175178C9E2C00931CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
